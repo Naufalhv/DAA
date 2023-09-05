@@ -1,0 +1,96 @@
+1. Cari nilai KPK dari 3 dan 4
+ALGORITMA
+Step 1 Mendeklarasikan variabel x , y , z dan a
+Step 2 Variabel x bernilai 3, variabel y bernilai 4 , z bernilai 1 dan a bernilai y * z
+Step 3 Mencari kelipatan y dengan nilai z 
+Step 4 Kemudian di moduluskan dengan x
+Step 5 Buat perulangan dengan kondisi jika hasil dari modulusnya bukan sama dengan 0 
+maka perulangan masih berlanjut dengan z bertambah satu
+Step 6 Jika hasil dari modulus sama dengan 0 maka tampilkan hasil dari a
+PSEUDOCODE
+• x = 3
+• y = 4 
+• z = 1
+• a= y * z
+• while a%x!=0 do
+• a= y * z 
+• z= z + 1
+• print (a)
+2. Fungsi untuk menukar posisi dua variabel x dan y, dengan kasus : Ada 2 buah: manggis dan 
+pisang. Manggis di piring 1, Pisang di piring 2. Piring 3 kosong.
+ALGORITMA
+Step 1 Siapkan 3 variabel
+Step 2 Variabel 1 bernilai pisang
+Step 3 Variabel 2 bernilai manggis
+Step 4 Variabel 3 bernilai wadah kosong
+Step 4 Variabel 1 dipindahkan ke variabel 3
+Step 5 Variabel 2 dipindahkan ke variabel 1
+Step 6 Variabel 3 dipindahkan ke variabel 2
+PSEUDOCODE
+• piring1 = pisang
+• piring2 = manggis
+• piring3 = ""
+• piring3 = piring1
+• piring1 = piring2
+• piring2 = piring2
+• Print (piring1,piring2)
+3. Diketahui sebuah segitiga memiliki ukuran sebagai berikut:
+Alas 25
+Tinggi 30
+Hitung luas dari segitiga tersebut.
+ALGORITMA
+Step 1 Mendeklarasikan luas, alas, dan tinggi
+Step 2 Masukkan alas bernilai 25 dan tinggi bernilai 30
+Step 3 Menghitung luas = alas dikali tinggi dibagi 2
+Step 4 Menampilkan luas
+PSEUDOCODE
+• Deklarasi 
+• Var luas, alas, tinggi
+• Alas = 25
+• Tinggi = 30 
+• Luas = alas*tinggi*1/2
+• Print(luas)
+4. Tentukan algoritma dan pseudocode luas jajar genjang
+(panjang = 5, tinggi = 3) 
+ALGORITMA
+Step 1 Mendeklarasikan panjang dan tinggi
+Step 2 Masukkan panjang bernilai 5 dan tinggi bernilai 3
+Step 3 Menghitung luas = panjang dikali tinggi
+Step 4 Menampilkan luas
+PSEUDOCODE
+• Deklarasi 
+• Var panjang, tinggi
+• Panjang = 5
+• Tinggi = 3
+• Luas = panjang*tinggi
+• Print(luas)
+5. Tentukan algoritma dan pseudocode volume tabung (jari-jari = 3, tinggi = 5) 
+ALGORITMA
+Step 1 Mendeklarasikan jari-jari, phi dan tinggi
+Step 2 Masukkan variabel jari-jari = 3, phi = 3.14 dan tinggi = 5
+Step 3 Menghitung volume = phi*jari-jari*jari-jari*tinggi
+Step 4 Menampilkan volume
+PSEUDOCODE
+• Deklarasi 
+• Var jari-jari, phi, tinggi
+• Jari-jari = 3
+• Phi = 3.14
+• Tinggi = 5
+• Volume = phi*jari-jari*jari-jari*tinggi
+• Print(volume)
+6. Tentukan algoritma dan pseudocode volume kerucut (diameter = 5, tinggi = 4)
+ALGORITMA
+Step 1 Mendeklarasikan diameter, jari-jari, phi dan tinggi 
+Step 2 Masukkan variabel diameter = 5, phi = 3.14 dan tinggi = 4
+Step 3 Menghitung jari-jari = diameter*1/2
+Step 4 Menghitung volume = 1/3*phi*jari-jari*jari-jari*tinggi
+Step 5 Menampilkan volume
+PSEUDOCODE
+• Deklarasi 
+• Var diameter, jari-jari, phi, tinggi
+• Diameter = 5
+• Phi = 3.14
+• Tinggi = 4
+• Jari-jari = diameter*1/2
+• Volume = 1/3*phi*jari-jari*jari-jari*tinggi
+• Print(volume)
